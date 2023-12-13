@@ -1,0 +1,56 @@
+header{
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+#info-personal, #habilidades{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+#info-personal h2, #habilidades h2{
+    font-size: 24px;
+}
+#habilidades ul{
+    list-style-type: square;
+}
+footer{
+    background-color: #ccc;
+    color: blue;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/*Responsiva*/
+
+/*Estilos para pantallas pequeñas*/
+@media only screen and (max-width: 600px){
+    /*Ajustar el padding para el encabezaddo y las subsecciones*/
+    header, #info-personal, #habilidades{
+        padding: 10px;
+    }
+    /*Ajustar el tamaño de la fuente*/
+    h1, h2{
+        font-size: 18px;
+    }
+}
+/*Estilos para pantallas medianas*/
+@media only screen and (min-width: 601px) and (max-width: 1024px){
+    header, #info-personal, #habilidades{
+        padding: 20px;
+    }
+    h1,h2{
+        font-size: 22px;
+    }
+}
+/*Estilos para pantallas grandes*/
+@media only screen and (min-width: 1025px){
+    header, #info-personal, #habilidades{
+        padding: 30px;
+    }
+    h1,h2{
+        font-size: 28px;
+    }
+}
